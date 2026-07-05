@@ -1,0 +1,58 @@
+{
+  "name": "@bybrave/string-similarity2",
+  "version": "5.0.0",
+  "description": "Maintained string-similarity fork: zero dependencies, ESM + CommonJS, built-in TypeScript types, findBestMatch keySelector for object arrays. Drop-in for string-similarity.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/",
+    "dist/"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "node build/build.js",
+    "test": "node --test",
+    "test-types": "tsc --strict --noEmit --moduleResolution bundler --target es2020 --types node test/types.ts",
+    "prepublishOnly": "npm run build && npm test && npm run test-types"
+  },
+  "keywords": [
+    "string",
+    "similarity",
+    "dice",
+    "compare",
+    "match",
+    "fuzzy",
+    "esm",
+    "typescript"
+  ],
+  "author": "bybrave",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bybraveHQ/string-similarity2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bybraveHQ/string-similarity2/issues"
+  },
+  "homepage": "https://github.com/bybraveHQ/string-similarity2#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}
