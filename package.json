@@ -1,6 +1,6 @@
 {
   "name": "@bybrave/string-similarity2",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Maintained string-similarity fork: zero dependencies, ESM + CommonJS, built-in TypeScript types, findBestMatch keySelector for object arrays. Drop-in for string-similarity.",
   "type": "module",
   "main": "./dist/index.cjs",
