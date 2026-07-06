@@ -66,6 +66,15 @@ Drop-in — replace the import:
 
 Ratings are **identical** to `string-similarity@4.0.4` (the Dice-coefficient formula is unchanged, including its whitespace stripping and the `length < 2 → 0` behaviour).
 
+## Support
+
+If this package saves you time, you can support maintenance:
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-buy%20me%20a%20coffee-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/bybrave)
+[![Bitcoin](https://img.shields.io/badge/Bitcoin-BTC-F7931A?logo=bitcoin&logoColor=white)](#support)
+
+Bitcoin (BTC): `bc1q37557q5jpeaxqydzwvf3jgj7zhnfpn2td3q40q`
+
 ## License
 
 MIT. Copyright © Akash Kurdekar; fork © bybrave.
